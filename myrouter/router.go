@@ -52,3 +52,7 @@ func main() {
 	fmt.Println("Rest API v2.0 - Mux Routers")
 	handleRequests()
 }
+
+func My() {
+	fmt.Print("from myrouter")
+}
